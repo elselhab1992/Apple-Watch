@@ -33,7 +33,7 @@ const NavLinks = styled.ul`
 const MobileLinks = styled.ul`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background-color: ${(props) => props.theme.colors.secondary};
   gap: 3rem;
@@ -43,7 +43,7 @@ const MobileLinks = styled.ul`
   width: 100%;
   height: 100vh;
   z-index: 1;
-  padding: 0;
+  padding: 3rem 0;
   transition: 700ms ease-in-out;
   opacity: ${(props) => (props.menu ? "100%" : "0")};
   /* top: ${(props) => (props.menu ? "0" : "-100%")}; */
