@@ -1,6 +1,6 @@
 import { Button } from "../index";
 import hero from "../../assets/SmartwatchHome - Copy.png";
-import { Section, Heading, Info } from "./HeroStyles";
+import { Section, Heading, Info, HeroImg, Img } from "./HeroStyles";
 
 const Hero = () => {
   return (
@@ -12,9 +12,9 @@ const Hero = () => {
         </Info>
         <Button>Explore More</Button>
       </div>
-      <div>
-        <img src={hero} alt="watch" width={600} />
-      </div>
+      <HeroImg>
+        <Img src={hero} alt="watch" />
+      </HeroImg>
     </Section>
   );
 };

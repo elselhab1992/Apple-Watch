@@ -25,6 +25,18 @@ const Heading = styled.h4`
 
 const BottomConrainer = styled.div`
   width: 40%;
+
+  @media (min-width: 300px) {
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    width: 60%;
+  }
+
+  @media (min-width: 1200px) {
+    width: 40%;
+  }
 `;
 
 const BtnContainer = styled.div`

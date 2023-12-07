@@ -1,11 +1,20 @@
 import watch from "../../assets/adbanner.png";
-import { Section, Heading, Input, InputContainer } from "./UpdatedStyles";
+import {
+  Section,
+  Heading,
+  Input,
+  InputContainer,
+  ImgContainer,
+  Img,
+} from "./UpdatedStyles";
 import Button from "../Button/Button";
 
 const Updated = () => {
   return (
     <Section>
-      <img src={watch} alt="watch" width={1900} />
+      <ImgContainer>
+        <Img src={watch} alt="watch" width={1900} />
+      </ImgContainer>
       <div>
         <Heading>stay updated</Heading>
         <p>

@@ -10,8 +10,28 @@ const Section = styled.section`
   padding: 2rem 0;
 `;
 
+const ImgContainer = styled.div`
+  width: 1600px;
+
+  @media (min-width: 300px) {
+    width: 100%;
+  }
+`;
+
+const Img = styled.img`
+  width: 100%;
+`;
+
 const Heading = styled.h3`
   font-size: ${(props) => props.theme.fontSizes.large};
+
+  @media (min-width: 300px) {
+    font-size: ${(props) => props.theme.fontSizes.medium};
+  }
+
+  @media (min-width: 768px) {
+    font-size: ${(props) => props.theme.fontSizes.large};
+  }
 `;
 
 const BtnContainer = styled.div`
@@ -29,6 +49,18 @@ const InputContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
+
+  @media (min-width: 300px) {
+    width: 90%;
+  }
+
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+
+  @media (min-width: 1200px) {
+    width: 20%;
+  }
 `;
 
 const Input = styled.input`
@@ -37,4 +69,12 @@ const Input = styled.input`
   padding-left: 1rem;
 `;
 
-export { Section, Heading, BtnContainer, Input, InputContainer };
+export {
+  Section,
+  Heading,
+  BtnContainer,
+  Input,
+  InputContainer,
+  ImgContainer,
+  Img,
+};

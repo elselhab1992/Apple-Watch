@@ -23,6 +23,19 @@ const SliderBtns = styled.div`
   top: 50%;
   left: 0;
   padding: 0 10px;
+
+  @media (min-width: 300px) {
+    top: 10%;
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
 `;
 
 const SliderArrow = styled.button`

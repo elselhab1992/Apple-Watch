@@ -11,6 +11,19 @@ const Section = styled.section`
 
 const Heading = styled.h2`
   font-size: ${(props) => props.theme.fontSizes.large};
+
+  @media (min-width: 300px) {
+    font-size: ${(props) => props.theme.fontSizes.small};
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
 `;
 
 const Links = styled.div`

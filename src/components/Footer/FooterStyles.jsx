@@ -13,6 +13,18 @@ const FooterContainer = styled.div`
   align-items: center;
   gap: 15rem;
   margin-bottom: 1.5rem;
+
+  @media (min-width: 300px) {
+    gap: 3rem;
+  }
+
+  @media (min-width: 768px) {
+    gap: 10rem;
+  }
+
+  @media (min-width: 1024px) {
+    gap: 15rem;
+  }
 `;
 
 export { FooterSection, FooterContainer };
