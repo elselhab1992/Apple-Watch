@@ -1,13 +1,16 @@
 /* eslint-disable react/prop-types */
 import { FaAngleDoubleRight } from "react-icons/fa";
 
-import { Container, Imgs, Links, LinksContainer } from "./SlideStyles";
+import { Container, Imgs, Links, LinksContainer, Info } from "./SlideStyles";
 
-const Slide = ({ title, img, url }) => {
+const Slide = ({ title, img, url, info }) => {
   return (
     <Container>
       <Imgs src={img} alt="title" />
-      <h4>{title}</h4>
+      <Info>
+        <h4>{title}</h4>
+        <p>{info}</p>
+      </Info>
       <LinksContainer>
         <Links href="#">{url}</Links>
         <FaAngleDoubleRight size={18} />

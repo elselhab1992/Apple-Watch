@@ -43,10 +43,17 @@ const LinksContainer = styled.div`
   color: ${(props) => props.theme.colors.blue};
 `;
 
+const Info = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+`;
+
 const Links = styled.a`
   font-size: ${(props) => props.theme.fontSizes.small};
   font-weight: ${(props) => props.theme.fontWeights.bold};
   color: ${(props) => props.theme.colors.blue};
 `;
 
-export { Container, Imgs, Links, LinksContainer };
+export { Container, Imgs, Links, LinksContainer, Info };

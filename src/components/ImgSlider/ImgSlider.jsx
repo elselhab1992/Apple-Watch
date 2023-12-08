@@ -12,7 +12,7 @@ const ImgSlider = () => {
         <Swiper {...sliderSettings}>
           <SliderButtons />
           {appleWatch.map((watch, index) => {
-            const { title, img, url } = watch;
+            const { title, info, img, url } = watch;
 
             return (
               <SwiperSlide key={index}>
