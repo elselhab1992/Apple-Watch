@@ -68,7 +68,7 @@ const HeroImg = styled.div`
   }
 
   @media (min-width: 768px) {
-    width: 80%;
+    width: 70%;
   }
 
   @media (min-width: 1200px) {
