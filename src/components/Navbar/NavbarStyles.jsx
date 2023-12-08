@@ -46,7 +46,7 @@ const MobileLinks = styled.ul`
   padding: 3rem 0;
   opacity: ${(props) => (props.menu ? "100%" : "0")};
   transition: 700ms;
-  top: ${(props) => (props.menu ? "0" : "-100%")};
+  /* top: ${(props) => (props.menu ? "0" : "-100%")}; */
 
   @media (min-width: 1024px) {
     display: none;
