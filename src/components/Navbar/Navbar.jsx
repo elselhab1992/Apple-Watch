@@ -43,6 +43,7 @@ const Navbar = () => {
           </li>
         </NavLinks>
         {/* mobile links */}
+
         {click && (
           <MobileLinks menu={+click}>
             <li>
