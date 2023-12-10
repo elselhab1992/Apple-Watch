@@ -1,7 +1,7 @@
 import GlobalStyles from "./GlobalStyles";
 import Theme from "./Theme";
 import {
-  Navbar,
+  Header,
   Hero,
   About,
   AppleWatch,
@@ -17,7 +17,7 @@ function App() {
   return (
     <Theme>
       <GlobalStyles />
-      <Navbar />
+      <Header />
       <Hero />
       <About />
       <AppleWatch />

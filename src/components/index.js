@@ -1,4 +1,6 @@
-import Navbar from "./Navbar/Navbar";
+import Header from "./Header/Header";
+import Navbar from "./Header/Navbar/Navbar";
+import Sidebar from "./Header/Sidebar/Sidebar";
 import Hero from "./Hero/Hero";
 import Button from "./Button/Button";
 import MoreInfo from "./MoreInfo/MoreInfo";
@@ -13,7 +15,9 @@ import Updated from "./Updated/Updated";
 import Footer from "./Footer/Footer";
 
 export {
+  Header,
   Navbar,
+  Sidebar,
   Hero,
   Button,
   MoreInfo,
